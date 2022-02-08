@@ -1302,7 +1302,7 @@ section {
   display: inline-block;
   width: 320px;
   height: 190px;
-  background: linear-gradient(to right bottom, #000000, #242323, #161616, #0a0a0a, #151314);
+  background: linear-gradient(to right bottom, #273c75, #3451a1, #4260b3, #0e2157, #2b4ca7);
   /*linear-gradient(to right bottom, #fd8369, #fc7870, #f96e78, #f56581, #ee5d8a)*/
   background-repeat: no-repeat;
   background-position: center;

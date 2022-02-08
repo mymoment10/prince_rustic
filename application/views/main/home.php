@@ -78,10 +78,10 @@
 	<section id="hero" class="d-flex flex-column justify-content-center text-center">
 		<div class="container" data-aos="zoom-in" data-aos-delay="100">
 			<p class="mb-lg-5 mb-5">THE WEDDING OF</p>
-			<h1>Imam & Nadya</h1>
-			<p class="mt-lg-4 mt-4">Jum'at, <span class="typed" data-typed-items="4 Februari 2022"></span></p>
+			<h1>Yudha & Diana</h1>
+			<p class="mt-lg-4 mt-4">Minggu, <span class="typed" data-typed-items="20 Februari 2022"></span></p>
 			<div class="social-links">
-				<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/4?tab=wc&pli=1"><button class="btn btn-dark rounded-lg shadow-lg"><i class="bi bi-calendar-check mr-2"></i> Save the Date</button></a>
+				<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20"><button class="btn btn-dark rounded-lg shadow-lg"><i class="bi bi-calendar-check mr-2"></i> Save the Date</button></a>
 			</div>
 		</div>
 	</section>
@@ -121,7 +121,7 @@
 									<i class="bx bxs-quote-alt-right quote-icon-right"></i>
 								</p>
 							</div>
-						</div><!-- End testimonial item -->
+						</div>
 
 					</div>
 					<div class="swiper-pagination"></div>
@@ -139,29 +139,29 @@
 				<div class="col-lg-10 col-12 row mx-lg-auto mx-auto">
 					<div class="col-lg-5 col-12 pt-4 pt-lg-0 content mx-lg-auto mx-auto text-center ">
 						<img src="<?= base_url() ?>assets/img/man.svg" width="300" height="300" class="rounded-circle shadow-lg mb-lg-5 mb-4" alt="">
-						<h3 class="text-warning"><b>Moch. Imam</b></h3>
+						<h3 class="text-warning"><b>Yudha Nur Hidayat</b></h3>
 						<p class="text-muted">
-							Putra Kedua dari
+							Putra Ketiga dari
 						</p>
-						<h5 class="text-white">Bpk H. Abdul Usman & Ibu Hj. Hosiyah</h5>
-						<a href="https://www.instagram.com/imamndya/" target="_blank">
+						<h5 class="text-white">Alm. Bpk. Mudjib dan Ibu Mardiyah</h5>
+						<!-- <a href="https://www.instagram.com/yudhanurhidayat_/" target="_blank">
 							<p class="text-muted">
-								<i class="bi bi-instagram mr-2"></i> imamndya
+								<i class="bi bi-instagram mr-2"></i> yudhanurhidayat_
 							</p>
-						</a>
+						</a> -->
 					</div>
 					<div class="col-lg-5 col-12 pt-4 pt-lg-0 content mx-lg-auto mx-auto text-center">
 						<img src="<?= base_url() ?>assets/img/woman.svg" width="300" height="300" class="rounded-circle shadow-lg mb-lg-5 mb-4" alt="">
-						<h3 class="text-warning"><b>Nadya Safitri</b></h3>
+						<h3 class="text-warning"><b>Diana</b></h3>
 						<p class="text-muted">
-							Putra Kedua dari
+							Putri Pertama dari
 						</p>
-						<h5 class="text-white">Alm. Bpk Achmad Chafid & Ibu Tri Retno</h5>
-						<a href="https://www.instagram.com/nadysftri/" target="_blank">
+						<h5 class="text-white">Bpk. Hasanudin dan Ibu Ropiah</h5>
+						<!-- <a href="#" target="_blank">
 							<p class="text-muted">
-								<i class="bi bi-instagram"></i> nadysftri
+								<i class="bi bi-instagram"></i> diana
 							</p>
-						</a>
+						</a> -->
 					</div>
 				</div>
 
@@ -172,24 +172,38 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2>Intimate Wedding</h2>
+					<h2>Wedding Events</h2>
 				</div>
 
 				<div class="row">
 
-					<div class="col-lg-8 col-12 mt-lg-0 mt-2 mx-lg-auto mx-auto">
-						<!-- <h3 class="resume-title text-center text-lg-left ">Wedding Reception</h3> -->
+					<div class="col-lg-6 col-12 mt-lg-0 mt-2 mx-lg-auto mx-auto text-center">
+						<span class="iconify mx-lg-auto mx-auto" data-icon="emojione-v1:love-letter" data-width="50" data-height="50"></span>
+						<h3 class="resume-title text-center font-weight-bold"><b>Akad Nikah</b></h3>
 						<div class="text-center">
-							<h4><strong>Jum'at, 4 Februari 2022</strong> </h4>
-							<h5><i class="bi bi-alarm"></i> 16.30 - 19.30</h5>
-							<h6><b class="mt-lg-2 mt-2">Midtown Residence Marvell City Surabaya</b></h6>
-							<small><em><i class="bi bi-geo"></i> Jl. Ngagel No.123, Ngagel, Kec. Wonokromo, Kota SBY, Jawa Timur 60246</em></small>
+							<h4>Minggu, 20 Februari 2022 </h4>
+							<h5><i class="bi bi-alarm"></i> 10.00 - Selesai</h5>
+							<!-- <h6><b class="mt-lg-2 mt-2">Midtown Residence Marvell City Surabaya</b></h6> -->
+							<small><em><i class="bi bi-geo"></i> Kp. Mekarsari RT. 03/05, Ds. Jayamukti, Kec. Banyusari, Kab. Karawang</em></small>
 							<div class="row p-lg-2 p-2 mx-lg-auto mx-auto">
-								<a target="_blank" href="https://goo.gl/maps/jnZedVoGiQ7YjiCj9" class="btn btn-dark col-lg-5 mx-lg-auto mx-auto col-12"><i class="bi bi-geo-alt"></i> Lihat Lokasi</a>
-								<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/4?tab=wc&pli=1" class="btn btn-dark col-lg-5 mt-2 mt-lg-0 mx-lg-auto mx-auto col-12" style="margin-left: 5px;"><i class="bi bi-calendar-check"></i> Save the Date</a>
+								<a target="_blank" href="https://goo.gl/maps/66MXsDD6BzweAyHW9" class="btn btn-dark col-lg-5 mx-lg-auto mx-auto col-12"><i class="bi bi-geo-alt"></i> Lihat Lokasi</a>
+								<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20" class="btn btn-dark col-lg-5 mt-2 mt-lg-0 mx-lg-auto mx-auto col-12" style="margin-left: 5px;"><i class="bi bi-calendar-check"></i> Save the Date</a>
 							</div>
 						</div>
-
+					</div>
+					<div class="col-lg-6 col-12 mt-lg-0 mt-2 mx-lg-auto mx-auto text-center">
+						<span class="iconify mx-lg-auto mx-auto" data-icon="wpf:wedding-cake" style="color: #e74c3c;" data-width="50" data-height="50"></span>
+						<h3 class="resume-title text-center font-weight-bold">Wedding Reception</h3>
+						<div class="text-center">
+							<h4>Minggu, 20 Februari 2022</h4>
+							<h5><i class="bi bi-alarm"></i> 10.00 - Selesai</h5>
+							<!-- <h6><b class="mt-lg-2 mt-2">Midtown Residence Marvell City Surabaya</b></h6> -->
+							<small><em><i class="bi bi-geo"></i> Kp. Mekarsari RT. 03/05, Ds. Jayamukti, Kec. Banyusari, Kab. Karawang</em></small>
+							<div class="row p-lg-2 p-2 mx-lg-auto mx-auto">
+								<a target="_blank" href="https://goo.gl/maps/66MXsDD6BzweAyHW9" class="btn btn-dark col-lg-5 mx-lg-auto mx-auto col-12"><i class="bi bi-geo-alt"></i> Lihat Lokasi</a>
+								<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20" class="btn btn-dark col-lg-5 mt-2 mt-lg-0 mx-lg-auto mx-auto col-12" style="margin-left: 5px;"><i class="bi bi-calendar-check"></i> Save the Date</a>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -310,6 +324,7 @@
 
 				<div class="section-title">
 					<h2 class="text-warning">Whises</h2>
+					<p class="text-white">Berikan ucapan & kesan anda terhadap kedua mempelai</p>
 				</div>
 
 				<div class="row">
@@ -452,12 +467,12 @@
 					<p class="text-center"> Silahkan transfer ke rekening tersebut untuk memberikan hadiah kepada <strong class="font-weight-bold">Imam & Nadya</strong></p>
 					<div class="card mx-lg-auto mx-auto mb-lg-3 mb-4">
 						<div class="card__front card__part">
-							<img class="card__front-square card__square" src="https://futurapast.com/wp-content/uploads/2020/03/logo-bank-bca-png-4.png">
+							<img class="card__front-square card__square" src="https://images.prismic.io/babono/65321977-8947-4f4f-89ab-659d08530ad1_Mandiri-Logo.png?auto=compress%2Cformat">
 							<img class="card__front-logo card__logo" src="<?= base_url() ?>assets/img/icon.png">
-							<p class="card_numer"><span id="norek">*********</span> </p>
+							<p class="card_numer"><span id="norek">1330015954134</span> </p>
 							<div class="card__space-75">
 								<span class="card__label">Card holder</span>
-								<p class="card__info">Nadya Safitri</p>
+								<p class="card__info">YUDHA NUR HIDAYAT</p>
 							</div>
 							<div class="card__space-25">
 								<span class="card__label">Expires</span>
@@ -512,7 +527,7 @@
 	<!--	});-->
 	<!--</script>-->
 	<script>
-		var audio = new Audio("<?= base_url() ?>assets/music/Maher Zain - Baraka Allahu Lakuma Official Lyric Video (mp3cut.net).mp3");
+		var audio = new Audio("<?= base_url() ?>assets/music/X2Download.com - Brian McKnight Jr  - Marry Your Daughter | Lyrics Terjemahan Indonesia (128 kbps).mp3");
 		$('#play').click(function() {
 			audio.play();
 		});
@@ -533,8 +548,8 @@
 		document.getElementById('cp_btn').onclick = function() {
 			navigator.clipboard.writeText(document.getElementById('norek').innerText).then(function() {
 				Swal.fire({
-					title: 'Maaf',
-					text: 'Tidak ada Nomor Rekening, Silahkan Datang ke tempat.',
+					title: 'Berhasil',
+					text: 'Nomor Rekening Berhasil Disalin!',
 					imageUrl: 'https://www.freeiconspng.com/uploads/credit-card-bank-icon-png-26.png',
 					imageWidth: 300,
 					imageHeight: 300,
@@ -543,7 +558,7 @@
 			})
 		}
 		// Set the date we're counting down to
-		var countDownDate = new Date("Feb 4, 2022 16:30:00").getTime();
+		var countDownDate = new Date("Feb 20, 2022 10:00:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(function() {
