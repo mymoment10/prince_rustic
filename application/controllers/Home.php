@@ -78,6 +78,7 @@ class Home extends CI_Controller
 		$this->form_validation->set_rules('whis_msg', 'Message', 'trim|required');
 		if ($this->form_validation->run() == false) {
 			$this->session->set_flashdata('data', 'Gagal');
+			redirect('home');
 		} else {
 			$query = $this->db->query("SELECT MAX(id_whis) as iw FROM whises")->row_array()['iw'];
 			if (!$query) {
@@ -97,7 +98,7 @@ class Home extends CI_Controller
 			];
 			$this->mg->create('whises', $data);
 			$this->session->set_flashdata('data', 'Add');
+			redirect('home');
 		}
-		redirect('home');
 	}
 }
