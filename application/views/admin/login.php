@@ -19,8 +19,17 @@
     <link rel="stylesheet" href="https://pattern.kivan-works.com/fonts/kredit.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
 
+
+    <style>
+        @font-face {
+            font-family: Dandeleon;
+            src: url('assets/css/DandeleonVintageDemo.otf');
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+    </style>
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -53,16 +62,16 @@
 
     <main id="main">
 
-        <section id="contact" class="contact" style="background-image: url('assets/img/additional-images/bg-quotes.png'); background-size: cover; height: 73vh">
+        <section id="contact" class="contact" style="background-image: url('assets/img/additional-images/bg-protocol.svg'); background-size: cover; height: 73vh">
             <div class="container justify-content-center my-lg-auto my-auto" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2 class="text-warning">Login Admin</h2>
+                    <h2 class="text-white" style="font-family: Dandeleon;">Login Admin</h2>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-6 mx-lg-auto mx-auto">
-                        <form class="" action="<?= base_url() ?>Login" method="post">
+                        <form class="" action="<?= base_url() ?>Login" style="font-family: 'Cairo', sans-serif;" method="post">
                             <div class="form-group">
                                 <label for="" class="text-white">Username</label>
                                 <input type="text" class="form-control" name="username" placeholder="Username" required autocomplete="off">
@@ -74,7 +83,7 @@
                                 <!-- <?= form_error('password', '<small>Password salah!</small>') ?> -->
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-dark mt-lg-3 mt-3" type="submit"><span class="iconify mr-2" data-icon="carbon:send-alt-filled" data-width="24" data-height="24"></span> Login Sekarang!</button>
+                                <button class="btn btn-dark mt-lg-3 mt-3 rounded-pill px-3" type="submit"><span class="iconify mr-2" data-icon="carbon:send-alt-filled" data-width="24" data-height="24"></span> Login Sekarang!</button>
                             </div>
                         </form>
 

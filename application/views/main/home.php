@@ -90,7 +90,7 @@
 			<h1 style="font-family: Dandeleon;" class="text-white">Yudha & Diana</h1>
 			<p class="mt-lg-4 mt-4 text-white" style="font-family: Dandeleon;">Minggu, <span class="typed text-white-50" data-typed-items="20 Februari 2022"></span></p>
 			<div class="social-links" style="font-family: Dandeleon;">
-				<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20"><button class="btn btn-dark rounded-lg shadow-lg"><i class="bi bi-calendar-check mr-2"></i> Save the Date</button></a>
+				<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20"><button class="btn btn-dark rounded-pill px-3 shadow-lg"><i class="bi bi-calendar-check mr-2"></i> Save the Date</button></a>
 			</div>
 		</div>
 	</section>
@@ -221,8 +221,8 @@
 							<!-- <h6><b class="mt-lg-2 mt-2">Midtown Residence Marvell City Surabaya</b></h6> -->
 							<small><em><i class="bi bi-geo"></i> Kp. Mekarsari RT. 03/05, Ds. Jayamukti, Kec. Banyusari, Kab. Karawang</em></small>
 							<div class="row p-lg-2 p-2 mx-lg-auto mx-auto">
-								<a target="_blank" href="https://goo.gl/maps/66MXsDD6BzweAyHW9" class="btn btn-dark col-lg-5 mx-lg-auto mx-auto col-12"><i class="bi bi-geo-alt"></i> Lihat Lokasi</a>
-								<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20" class="btn btn-dark col-lg-5 mt-2 mt-lg-0 mx-lg-auto mx-auto col-12" style="margin-left: 5px;"><i class="bi bi-calendar-check"></i> Save the Date</a>
+								<a target="_blank" href="https://goo.gl/maps/66MXsDD6BzweAyHW9" class="btn btn-dark col-lg-5  rounded-pill px-3 mx-lg-auto mx-auto col-12"><i class="bi bi-geo-alt"></i> Lihat Lokasi</a>
+								<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20" class="btn btn-dark rounded-pill px-3 col-lg-5 mt-2 mt-lg-0 mx-lg-auto mx-auto col-12" style="margin-left: 5px;"><i class="bi bi-calendar-check"></i> Save the Date</a>
 							</div>
 						</div>
 					</div>
@@ -235,8 +235,8 @@
 							<!-- <h6><b class="mt-lg-2 mt-2">Midtown Residence Marvell City Surabaya</b></h6> -->
 							<small><em><i class="bi bi-geo"></i> Kp. Mekarsari RT. 03/05, Ds. Jayamukti, Kec. Banyusari, Kab. Karawang</em></small>
 							<div class="row p-lg-2 p-2 mx-lg-auto mx-auto">
-								<a target="_blank" href="https://goo.gl/maps/66MXsDD6BzweAyHW9" class="btn btn-dark col-lg-5 mx-lg-auto mx-auto col-12"><i class="bi bi-geo-alt"></i> Lihat Lokasi</a>
-								<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20" class="btn btn-dark col-lg-5 mt-2 mt-lg-0 mx-lg-auto mx-auto col-12" style="margin-left: 5px;"><i class="bi bi-calendar-check"></i> Save the Date</a>
+								<a target="_blank" href="https://goo.gl/maps/66MXsDD6BzweAyHW9" class="btn btn-dark col-lg-5 mx-lg-auto mx-auto rounded-pill px-3 col-12"><i class="bi bi-geo-alt"></i> Lihat Lokasi</a>
+								<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20" class="btn btn-dark col-lg-5 mt-2 mt-lg-0 rounded-pill px-3 mx-lg-auto mx-auto col-12" style="margin-left: 5px;"><i class="bi bi-calendar-check"></i> Save the Date</a>
 							</div>
 						</div>
 					</div>
@@ -252,7 +252,7 @@
 					<h2 class="text-dark" style="font-family: Dandeleon;">RSVP</h2>
 					<p class="lead text-dark" style="font-family: 'Cairo', sans-serif;"><strong class="text-black"><?= $count_hadir + 65; ?> </strong>Tamu Undangan memilih untuk menghadiri acara pernikahan Imam & Nadya</p>
 					<lottie-player class="mx-lg-auto mx-auto" src="https://assets8.lottiefiles.com/packages/lf20_jkwhqdvw.json" background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
-					<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-dark text-white" style="font-family: 'Cairo', sans-serif;"><b>Konfirmasi Sekarang!</b></button>
+					<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-dark text-white rounded-pill px-3" style="font-family: 'Cairo', sans-serif;"><b>Konfirmasi Sekarang!</b></button>
 				</div>
 
 				<div class="row col-lg-8 col-12 mx-lg-auto mx-auto mt-lg-3 mt-4" id="timer" style="font-family: Dandeleon;">
@@ -376,7 +376,7 @@
 							</div>
 
 							<div class="text-center" style="font-family: 'Cairo', sans-serif;">
-								<button class="btn btn-dark" id="btn-whises" type="submit"><i class="ri-send-plane-fill mr-2"></i> Kirim Ucapan</button>
+								<button class="btn btn-dark rounded-pill px-3" id="btn-whises" type="submit"><i class="ri-send-plane-fill mr-2"></i> Kirim Ucapan</button>
 
 							</div>
 						</form>
@@ -415,7 +415,7 @@
 					<p style="font-family: 'Cairo', sans-serif;">Kami memahami bahwa beberapa dari Anda mungkin ingin mengirimkan ucapan atau hadiah kepada kami, jadi silakan ketuk tombol berikut untuk mengirimkannya kepada kami:</p>
 				</div>
 				<div class="text-center" style="font-family: 'Cairo', sans-serif;">
-					<button class="btn btn-dark " type="button" data-toggle="modal" data-target="#wedd-gift"><i class="ri-gift-line mr-2"></i>Kirim Hadiah</button>
+					<button class="btn btn-dark rounded-pill px-3" type="button" data-toggle="modal" data-target="#wedd-gift"><i class="ri-gift-line mr-2"></i>Kirim Hadiah</button>
 
 				</div>
 
