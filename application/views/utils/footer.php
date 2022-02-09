@@ -1,7 +1,7 @@
-<footer id="footer" class="bg-dark">
+<footer id="footer" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-quotes.svg'); font-family: 'Cairo', sans-serif;">
 	<div class="container">
-		<div class="copyright mb-3 text-white">
-			&copy; Powered by <strong><a class="text-warning" href="https://mymoment.web.id/">My Moment</a></strong>
+		<div class="copyright mb-3 text-black mt-3">
+			&copy; Powered by <strong><a class="text-dark" href="https://mymoment.web.id/">My Moment</a></strong>
 		</div>
 		<div class="social-links">
 			<a href="https://api.whatsapp.com/send?phone=6281259261826&amp;text=Halo,%20saya%20ingin%20memesan%20undangan%20digital%20anda" class="twitter"><span class="iconify" data-icon="bx:bxl-whatsapp" style="color: white;"></span></a>
