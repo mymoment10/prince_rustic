@@ -18,8 +18,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link rel="stylesheet" href="https://pattern.kivan-works.com/fonts/kredit.css">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
 	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+		@font-face {
+			font-family: Dandeleon;
+			src: url('assets/css/DandeleonVintageDemo.otf');
+		}
+
+		@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 	</style>
 
 	<!-- Vendor CSS Files -->
@@ -43,7 +52,7 @@
 
 </head>
 
-<body style="font-family: 'Playfair Display', serif;">
+<body>
 	<?php if ($this->session->flashdata('data')) {
 		if ($this->session->flashdata('data') == "Add") {
 			echo '<script>Swal.fire("Berhasil", "Data Berhasil Ditambahkan", "success");</script>';
@@ -60,16 +69,16 @@
 		}
 	}
 	?>
-	<header id="header" class="d-flex flex-column justify-content-center">
+	<header id="header" class="d-flex flex-column justify-content-center" style="font-family: 'Cairo', sans-serif;">
 
-		<nav class="navbar navbar-expand fixed-bottom ">
+		<nav class="navbar navbar-expand fixed-bottom">
 			<div class="row shadow-lg p-lg-3 p-3 col-lg-10 col-10 mx-auto mx-lg-auto mb-lg-3 mb-3 bg-dark" style="border-radius:  50px;">
-				<a href="#abouts" class="col-lg-2 col-2 mx-auto mx-lg-auto text-center mx-auto text-warning text-decoration-none"><i class="ri-user-heart-fill"></i> <span class="d-none d-lg-block">Bride & Groom</span></a>
-				<a href="#resume" class="col-lg-2 col-2 mx-auto mx-lg-auto text-center mx-auto text-warning text-decoration-none"><i class="ri-calendar-check-fill"></i><span class="d-none d-lg-block">Wedding Event</span></a>
-				<button id="pause" class="btn btn-warning text-dark  col-lg-2 col-2 mx-auto mx-lg-auto text-center" style="display: block; border-radius:  50px;"><i class="ri-play-circle-line"></i><span class="d-none d-lg-block">Music Play</button>
-				<button id="playAgain" class="btn btn-warning text-dark rounded-lg col-lg-2 col-2 mx-auto mx-lg-auto text-center" style="display: none; border-radius:  50px;"><i class="ri-pause-circle-line"></i> <span class="d-none d-lg-block">Music Pause</button>
-				<a href="#facts" class="col-lg-2 col-2 mx-auto mx-lg-auto text-center mx-auto text-warning text-decoration-none"><i class="ri-file-list-3-line"></i> <span class="d-none d-lg-block">RSVP</span></a>
-				<a href="#services1" class="col-lg-2 col-2 mx-auto mx-lg-auto text-center mx-auto text-warning text-decoration-none"><i class="ri-gift-line"></i><span class="d-none d-lg-block">Wedding Gift</span></a>
+				<a href="#abouts" class="col-lg-2 col-2 mx-auto mx-lg-auto text-center mx-auto text-white text-decoration-none"><i class="ri-user-heart-fill"></i> <span class="d-none d-lg-block">Bride & Groom</span></a>
+				<a href="#resume" class="col-lg-2 col-2 mx-auto mx-lg-auto text-center mx-auto text-white text-decoration-none"><i class="ri-calendar-check-fill"></i><span class="d-none d-lg-block">Wedding Event</span></a>
+				<button id="pause" class="btn bg-white text-dark  col-lg-2 col-2 mx-auto mx-lg-auto text-center" style="display: block; border-radius:  50px;"><i class="ri-play-circle-line"></i><span class="d-none d-lg-block">Music Play</button>
+				<button id="playAgain" class="btn bg-white text-dark rounded-lg col-lg-2 col-2 mx-auto mx-lg-auto text-center" style="display: none; border-radius:  50px;"><i class="ri-pause-circle-line"></i> <span class="d-none d-lg-block">Music Pause</button>
+				<a href="#facts" class="col-lg-2 col-2 mx-auto mx-lg-auto text-center mx-auto text-white text-decoration-none"><i class="ri-file-list-3-line"></i> <span class="d-none d-lg-block">RSVP</span></a>
+				<a href="#services1" class="col-lg-2 col-2 mx-auto mx-lg-auto text-center mx-auto text-white text-decoration-none"><i class="ri-gift-line"></i><span class="d-none d-lg-block">Wedding Gift</span></a>
 			</div>
 		</nav>
 
@@ -77,11 +86,11 @@
 
 	<section id="hero" class="d-flex flex-column justify-content-center text-center">
 		<div class="container" data-aos="zoom-in" data-aos-delay="100">
-			<p class="mb-lg-5 mb-5">THE WEDDING OF</p>
-			<h1>Imam & Nadya</h1>
-			<p class="mt-lg-4 mt-4">Jum'at, <span class="typed" data-typed-items="4 Februari 2022"></span></p>
-			<div class="social-links">
-				<a target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220204T093000Z%2F20220204T150000Z&details=Intimate%20Wedding%20Imam%20%26%20Nadya&location=Midtown%20Residence%20Marvel%20City%2C%20Surabay&text=Intimate%20Wedding"><button class="btn btn-dark rounded-lg shadow-lg"><i class="bi bi-calendar-check mr-2"></i> Save the Date</button></a>
+			<p class="mb-lg-5 mb-5 text-secondary" style="font-family: 'Cairo', sans-serif;">THE WEDDING OF</p>
+			<h1 style="font-family: Dandeleon;" class="text-white">Yudha & Diana</h1>
+			<p class="mt-lg-4 mt-4 text-white" style="font-family: Dandeleon;">Minggu, <span class="typed text-white-50" data-typed-items="20 Februari 2022"></span></p>
+			<div class="social-links" style="font-family: Dandeleon;">
+				<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20"><button class="btn btn-dark rounded-pill px-3 shadow-lg"><i class="bi bi-calendar-check mr-2"></i> Save the Date</button></a>
 			</div>
 		</div>
 	</section>
@@ -89,39 +98,65 @@
 	<main id="main">
 
 
-		<section id="about" class="about text-white" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-quotes.png');">
+		<section id="about" class="about text-white" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-quotes.svg');">
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2 class="text-warning">وَمِنْ كُلِّ شَيْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُوْنَ</h2>
-					<p><i class="bx bxs-quote-alt-left quote-icon-left"></i> Dan segala sesuatu Kami ciptakan berpasang-pasangan agar kamu mengingat (kebesaran Allah). <i class="bx bxs-quote-alt-right quote-icon-right"></i></p>
-					<small><i>Q.S Adz- Dzariat ayat 49</i></small>
+					<h2 class="text-dark">وَمِنْ كُلِّ شَيْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُوْنَ</h2>
+					<p style="font-family: 'Cairo', sans-serif;" class="text-dark"><i class="bx bxs-quote-alt-left quote-icon-left"></i> Dan segala sesuatu Kami ciptakan berpasang-pasangan agar kamu mengingat (kebesaran Allah). <i class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+					<small class="text-secondary"><i>Q.S Adz- Dzariat ayat 49</i></small>
 				</div>
 			</div>
 		</section>
 
-		<section id="testimonials" class="testimonials section-bg">
+		<section id="testimonials" class="testimonials section-bg" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-love-story.svg');">
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2>Love Story</h2>
+					<h2 style="font-family: Dandeleon;" class=" text-white">Love Story</h2>
 				</div>
 
 				<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
 					<div class="swiper-wrapper">
 
 						<div class="swiper-slide w-100">
-							<div class="testimonial-item text-warning p-lg-5 p-5 mx-auto" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-love-story.png');  background-size: cover;">
+							<div class="testimonial-item text-dark p-lg-5 p-5 mx-auto" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-carousel-love-story.svg');  background-size: cover;">
 								<i class="bi bi-heart mt-lg-5"></i>
-								<h3 class="text-warning">Pertemuan</h3>
-								<!-- <h4 class="text-white">12 Januari 2021</h4> -->
-								<p>
-									<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+								<h3 class="text-dark" style="font-family: Dandeleon;">Awal Kenalan</h3>
+								<h4 class="text-black" style="font-family: 'Cairo', sans-serif;">01 April 2018</h4>
+								<p style="font-family: 'Cairo', sans-serif;">
+									<i class="bx bxs-quote-alt-left quote-icon-left text-dark"></i>
 									Dipertemukan oleh Allah SWT
-									<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+									<i class="bx bxs-quote-alt-right quote-icon-right text-dark"></i>
 								</p>
 							</div>
-						</div><!-- End testimonial item -->
+
+
+						</div>
+						<div class="swiper-slide w-100">
+							<div class="testimonial-item text-dark p-lg-5 p-5 mx-auto" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-carousel-love-story.svg');  background-size: cover;">
+								<i class="bi bi-heart mt-lg-5"></i>
+								<h3 class="text-dark" style="font-family: Dandeleon;">Tunangan</h3>
+								<h4 class="text-black" style="font-family: 'Cairo', sans-serif;">10 Oktober 2021</h4>
+								<p style="font-family: 'Cairo', sans-serif;">
+									<i class="bx bxs-quote-alt-left quote-icon-left text-dark"></i>
+									Menjalin komitmen hubungan sebelum melangsungkan pernikahan.
+									<i class="bx bxs-quote-alt-right quote-icon-right text-dark"></i>
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide w-100">
+							<div class="testimonial-item text-dark p-lg-5 p-5 mx-auto" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-carousel-love-story.svg');  background-size: cover;">
+								<i class="bi bi-heart mt-lg-5"></i>
+								<h3 class="text-dark" style="font-family: Dandeleon;">Pernikahan</h3>
+								<h4 class="text-black" style="font-family: 'Cairo', sans-serif;">20 Februari 2022</h4>
+								<p style="font-family: 'Cairo', sans-serif;">
+									<i class="bx bxs-quote-alt-left quote-icon-left text-dark"></i>
+									Menjalin suatu ikatan yang serius selamanya yaitu dengan berumahtangga
+									<i class="bx bxs-quote-alt-right quote-icon-right text-dark"></i>
+								</p>
+							</div>
+						</div>
 
 					</div>
 					<div class="swiper-pagination"></div>
@@ -129,90 +164,104 @@
 
 			</div>
 		</section>
-		<section id="abouts" class="about" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-bride-groom.png'); background-size: cover;">
+		<section id="abouts" class="about" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-bride-groom.svg'); background-size: cover;">
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2 class="text-warning">Bride & Groom</h2>
+					<h2 class="text-dark" style="font-family: Dandeleon;">Bride & Groom</h2>
 				</div>
 
 				<div class="col-lg-10 col-12 row mx-lg-auto mx-auto">
-					<div class="col-lg-5 col-12 pt-4 pt-lg-0 content mx-lg-auto mx-auto text-center ">
-						<img src="<?= base_url() ?>assets/img/man.svg" width="300" height="300" class="rounded-circle shadow-lg mb-lg-5 mb-4" alt="">
-						<h3 class="text-warning"><b>Moch. Imam</b></h3>
-						<p class="text-muted">
-							Putra Kedua dari
+					<div class="col-lg-5 col-12 pt-4 pt-lg-0 content mx-lg-auto mx-auto text-center">
+						<img src="<?= base_url() ?>assets/img/additional-images/bride.svg" width="300" height="300" class="rounded-3 shadow-lg mb-lg-5 mb-4 img-thumbnail" alt="">
+						<h3 class="text-dark" style="font-family: Dandeleon;"><b>Yudha Nur Hidayat</b></h3>
+						<p class="text-muted" style="font-family: 'Cairo', sans-serif;">
+							Putra Ketiga dari
 						</p>
-						<h5 class="text-white">Bpk H. Abdul Usman & Ibu Hj. Hosiyah</h5>
-						<a href="https://www.instagram.com/imamndya/" target="_blank">
+						<h6 class="text-dark" style="font-family: 'Cairo', sans-serif;">Alm. Bpk. Mudjib dan Ibu Mardiyah</h6>
+						<!-- <a href="https://www.instagram.com/yudhanurhidayat_/" target="_blank">
 							<p class="text-muted">
-								<i class="bi bi-instagram mr-2"></i> imamndya
+								<i class="bi bi-instagram mr-2"></i> yudhanurhidayat_
 							</p>
-						</a>
+						</a> -->
 					</div>
 					<div class="col-lg-5 col-12 pt-4 pt-lg-0 content mx-lg-auto mx-auto text-center">
-						<img src="<?= base_url() ?>assets/img/woman.svg" width="300" height="300" class="rounded-circle shadow-lg mb-lg-5 mb-4" alt="">
-						<h3 class="text-warning"><b>Nadya Safitri</b></h3>
-						<p class="text-muted">
-							Putra Kedua dari
+						<img src="<?= base_url() ?>assets/img/additional-images/groom.svg" width="300" height="300" class="rounded-3 shadow-lg mb-lg-5 mb-4 img-thumbnail" alt="">
+						<h3 class="text-dark" style="font-family: Dandeleon;"><b>Diana</b></h3>
+						<p class="text-muted" style="font-family: 'Cairo', sans-serif;">
+							Putri Pertama dari
 						</p>
-						<h5 class="text-white">Alm. Bpk Achmad Chafid & Ibu Tri Retno</h5>
-						<a href="https://www.instagram.com/nadysftri/" target="_blank">
+						<h6 class="text-dark" style="font-family: 'Cairo', sans-serif;">Bpk. Hasanudin dan Ibu Ropiah</h6>
+						<!-- <a href="#" target="_blank">
 							<p class="text-muted">
-								<i class="bi bi-instagram"></i> nadysftri
+								<i class="bi bi-instagram"></i> diana
 							</p>
-						</a>
+						</a> -->
 					</div>
 				</div>
 
 			</div>
 		</section>
 
-		<section id="resume" class="resume">
+		<section id="resume" class="resume" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-wedding-events.svg'); background-size: cover;">
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2>Intimate Wedding</h2>
+					<h2 style="font-family: Dandeleon;" class="text-white">Wedding Events</h2>
 				</div>
 
-				<div class="row">
+				<div class="row text-white">
 
-					<div class="col-lg-8 col-12 mt-lg-0 mt-2 mx-lg-auto mx-auto">
-						<!-- <h3 class="resume-title text-center text-lg-left ">Wedding Reception</h3> -->
-						<div class="text-center">
-							<h4><strong>Jum'at, 4 Februari 2022</strong> </h4>
-							<h5><i class="bi bi-alarm"></i> 16.30 - 19.30</h5>
-							<h6><b class="mt-lg-2 mt-2">Midtown Residence Marvell City Surabaya</b></h6>
-							<small><em><i class="bi bi-geo"></i> Jl. Ngagel No.123, Ngagel, Kec. Wonokromo, Kota SBY, Jawa Timur 60246</em></small>
+					<div class="col-lg-6 col-12 mt-lg-0 mt-2 mx-lg-auto mx-auto text-center ">
+						<span class="iconify mx-lg-auto mx-auto" data-icon="emojione-v1:love-letter" data-width="50" data-height="50"></span>
+						<h3 class="resume-title text-center font-weight-bold text-white" style="font-family: Dandeleon;"><b>Akad Nikah</b></h3>
+						<div class="text-center" style="font-family: 'Cairo', sans-serif;">
+							<h4>Minggu, 20 Februari 2022 </h4>
+							<h5><i class="bi bi-alarm"></i> 10.00 - Selesai</h5>
+							<!-- <h6><b class="mt-lg-2 mt-2">Midtown Residence Marvell City Surabaya</b></h6> -->
+							<small><em><i class="bi bi-geo"></i> Kp. Mekarsari RT. 03/05, Ds. Jayamukti, Kec. Banyusari, Kab. Karawang</em></small>
 							<div class="row p-lg-2 p-2 mx-lg-auto mx-auto">
-								<a target="_blank" href="https://goo.gl/maps/jnZedVoGiQ7YjiCj9" class="btn btn-dark col-lg-5 mx-lg-auto mx-auto col-12"><i class="bi bi-geo-alt"></i> Lihat Lokasi</a>
-								<a target="_blank" href=https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220204T093000Z%2F20220204T150000Z&details=Intimate%20Wedding%20Imam%20%26%20Nadya&location=Midtown%20Residence%20Marvel%20City%2C%20Surabay&text=Intimate%20Wedding"" class="btn btn-dark col-lg-5 mt-2 mt-lg-0 mx-lg-auto mx-auto col-12" style="margin-left: 5px;"><i class="bi bi-calendar-check"></i> Save the Date</a>
+								<a target="_blank" href="https://goo.gl/maps/66MXsDD6BzweAyHW9" class="btn btn-dark col-lg-5  rounded-pill px-3 mx-lg-auto mx-auto col-12"><i class="bi bi-geo-alt"></i> Lihat Lokasi</a>
+								<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20" class="btn btn-dark rounded-pill px-3 col-lg-5 mt-2 mt-lg-0 mx-lg-auto mx-auto col-12" style="margin-left: 5px;"><i class="bi bi-calendar-check"></i> Save the Date</a>
 							</div>
 						</div>
-
+					</div>
+					<div class="col-lg-6 col-12 mt-lg-0 mt-2 mx-lg-auto mx-auto text-center">
+						<span class="iconify mx-lg-auto mx-auto" data-icon="wpf:wedding-cake" style="color: #ffff;" data-width="50" data-height="50"></span>
+						<h3 class="resume-title text-center font-weight-bold text-white" style="font-family: Dandeleon;">Wedding Reception</h3>
+						<div class="text-center" style="font-family: 'Cairo', sans-serif;">
+							<h4>Minggu, 20 Februari 2022</h4>
+							<h5><i class="bi bi-alarm"></i> 10.00 - Selesai</h5>
+							<!-- <h6><b class="mt-lg-2 mt-2">Midtown Residence Marvell City Surabaya</b></h6> -->
+							<small><em><i class="bi bi-geo"></i> Kp. Mekarsari RT. 03/05, Ds. Jayamukti, Kec. Banyusari, Kab. Karawang</em></small>
+							<div class="row p-lg-2 p-2 mx-lg-auto mx-auto">
+								<a target="_blank" href="https://goo.gl/maps/66MXsDD6BzweAyHW9" class="btn btn-dark col-lg-5 mx-lg-auto mx-auto rounded-pill px-3 col-12"><i class="bi bi-geo-alt"></i> Lihat Lokasi</a>
+								<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20" class="btn btn-dark col-lg-5 mt-2 mt-lg-0 rounded-pill px-3 mx-lg-auto mx-auto col-12" style="margin-left: 5px;"><i class="bi bi-calendar-check"></i> Save the Date</a>
+							</div>
+						</div>
 					</div>
 				</div>
 
 			</div>
 		</section>
 
-		<section id="facts" class="facts" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-quotes.png');">
+		<section id="facts" class="facts" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-kartu-ucapan.svg');">
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2 class="text-warning">RSVP</h2>
-					<p class="lead text-white"><b><?= $count_hadir + 65; ?> </b>Tamu Undangan memilih untuk menghadiri acara pernikahan Imam & Nadya</p>
-					<lottie-player class="mx-lg-auto mx-auto" src="https://assets9.lottiefiles.com/packages/lf20_bajpxbhe.json" background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
-					<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-warning text-dark"><b>Konfirmasi Sekarang!</b></button>
+					<h2 class="text-dark" style="font-family: Dandeleon;">RSVP</h2>
+					<p class="lead text-dark" style="font-family: 'Cairo', sans-serif;"><strong class="text-black"><?= $count_hadir + 65; ?> </strong>Tamu Undangan memilih untuk menghadiri acara pernikahan Imam & Nadya</p>
+					<lottie-player class="mx-lg-auto mx-auto" src="https://assets8.lottiefiles.com/packages/lf20_jkwhqdvw.json" background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+					<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-dark text-white rounded-pill px-3" style="font-family: 'Cairo', sans-serif;"><b>Konfirmasi Sekarang!</b></button>
 				</div>
 
-				<div class="row col-lg-8 mx-lg-auto mx-auto mt-lg-3 mt-4" id="timer">
+				<div class="row col-lg-8 col-12 mx-lg-auto mx-auto mt-lg-3 mt-4" id="timer" style="font-family: Dandeleon;">
 
 					<div class="col-lg-3 col-md-6 col-3">
-						<div class="count-box shadow-lg " style="border-radius: 10px;">
+						<div class="count-box shadow-lg" style="border-radius: 10px;">
 							<i class="bi bi-calendar2-day"></i>
 							<span class="purecounter" id="days"></span>
-							<p class="font-weight-bold">Days</p>
+							<p class="font-weight-bold text-white" style="font-family: 'Cairo', sans-serif;">Days</p>
 						</div>
 					</div>
 
@@ -220,7 +269,7 @@
 						<div class="count-box shadow-lg " style="border-radius: 10px;">
 							<i class="bi bi-clock"></i>
 							<span class="purecounter" id="hours"></span>
-							<p class="font-weight-bold">Hours</p>
+							<p class="font-weight-bold text-white" style="font-family: 'Cairo', sans-serif;">Hours</p>
 						</div>
 					</div>
 
@@ -228,7 +277,7 @@
 						<div class="count-box shadow-lg " style="border-radius: 10px;">
 							<i class="bi bi-alarm"></i>
 							<span class="purecounter" id="minutes"></span>
-							<p class="font-weight-bold">Minutes</p>
+							<p class="font-weight-bold text-white" style="font-family: 'Cairo', sans-serif;">Minutes</p>
 						</div>
 					</div>
 
@@ -236,7 +285,7 @@
 						<div class="count-box shadow-lg " style="border-radius: 10px;">
 							<i class="bi bi-stopwatch"></i>
 							<span class="purecounter" id="seconds"></span>
-							<p class="font-weight-bold">Seconds</p>
+							<p class="font-weight-bold text-white" style="font-family: 'Cairo', sans-serif;">Seconds</p>
 						</div>
 					</div>
 
@@ -246,15 +295,15 @@
 		</section>
 
 
-		<section id="services" class="services">
+		<section id="services" class="services" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-protocol.svg');">
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2>Health Protocol</h2>
-					<p>Dikarenakan pandemi COVID-19 sehingga acara pernikahan ini akan dilaksanakan dengan mengikuti protokol kesehatan, harap mengikuti aturan berikut.</p>
+					<h2 style="font-family: Dandeleon;" class="text-white">Health Protocol</h2>
+					<p style="font-family: 'Cairo', sans-serif;" class="text-white">Dikarenakan pandemi COVID-19 sehingga acara pernikahan ini akan dilaksanakan dengan mengikuti protokol kesehatan, harap mengikuti aturan berikut.</p>
 				</div>
 
-				<div class="row">
+				<div class="row text-white">
 
 					<div class="col-lg-3 col-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
 						<div class="icon-box iconbox-blue">
@@ -262,8 +311,8 @@
 
 								<i class="iconify" data-icon="uim:social-distancing" data-width="100" data-height="100"></i>
 							</div>
-							<h4>Social Distancing</h4>
-							<p>Jaga jarak aman anda minimal 1 meter dari orang lain</p>
+							<h4 style="font-family: Dandeleon;">Social Distancing</h4>
+							<p style="font-family: 'Cairo', sans-serif;">Jaga jarak aman anda minimal 1 meter dari orang lain</p>
 						</div>
 					</div>
 
@@ -272,8 +321,8 @@
 							<div class="icon">
 								<span class="iconify" data-icon="ph:face-mask-fill" data-width="100" data-height="100"></span>
 							</div>
-							<h4>Use a Mask</h4>
-							<p>Selalu gunakan masker Anda, saat memasuki area resepsi pernikahan</p>
+							<h4 style="font-family: Dandeleon;">Use a Mask</h4>
+							<p style="font-family: 'Cairo', sans-serif;">Selalu gunakan masker Anda, saat memasuki area resepsi pernikahan</p>
 						</div>
 					</div>
 
@@ -283,8 +332,8 @@
 
 								<span class="iconify" data-icon="fa-solid:hands-wash" data-width="100" data-height="100"></span>
 							</div>
-							<h4>Wash Your Hand</h4>
-							<p>Selalu cuci tangan anda sebelum dan sesudah. Gunakan sabun dan air atau handsinitize</p>
+							<h4 style="font-family: Dandeleon;">Wash Your Hand</h4>
+							<p style="font-family: 'Cairo', sans-serif;">Selalu cuci tangan anda sebelum dan sesudah. Gunakan sabun dan air atau handsinitize</p>
 						</div>
 					</div>
 
@@ -294,8 +343,8 @@
 
 								<span class="iconify" data-icon="wpf:facial-recognition-scan" data-width="100" data-height="100"></span>
 							</div>
-							<h4>Temperature Check</h4>
-							<p>Selalu check temperatur anda dan tetap di rumah jika anda sakit atau mengalami gejala</p>
+							<h4 style="font-family: Dandeleon;">Temperature Check</h4>
+							<p style="font-family: 'Cairo', sans-serif;">Selalu check temperatur anda dan tetap di rumah jika anda sakit atau mengalami gejala</p>
 						</div>
 					</div>
 
@@ -305,18 +354,19 @@
 			</div>
 		</section>
 
-		<section id="contact" class="contact" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-quotes.png'); background-size: cover;">
+		<section id="contact" class="contact" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-kartu-ucapan.svg'); background-size: cover;">
 			<div class="container mb-lg-3 mb-3" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2 class="text-warning">Whises</h2>
+					<h2 class="text-dark" style="font-family: Dandeleon;">Whises</h2>
+					<p class="text-black" style="font-family: 'Cairo', sans-serif;">Berikan ucapan & kesan anda terhadap kedua mempelai</p>
 				</div>
 
 				<div class="row">
 
 					<div class="col-lg-8 ">
 
-						<form action="<?= base_url() ?>Home/Whises" method="post">
+						<form action="<?= base_url() ?>Home/Whises" method="post" style="font-family: 'Cairo', sans-serif;">
 
 							<div class="form-group">
 								<input type="text" class="form-control" name="whis_name" placeholder="Nama Lengkap" required>
@@ -325,21 +375,21 @@
 								<textarea class="form-control" name="whis_msg" rows="5" placeholder="Ucapan untuk mereka.." required></textarea>
 							</div>
 
-							<div class="text-center">
-								<button class="btn btn-dark" id="btn-whises" type="submit"><i class="ri-send-plane-fill mr-2"></i> Kirim Ucapan</button>
+							<div class="text-center" style="font-family: 'Cairo', sans-serif;">
+								<button class="btn btn-dark rounded-pill px-3" id="btn-whises" type="submit"><i class="ri-send-plane-fill mr-2"></i> Kirim Ucapan</button>
 
 							</div>
 						</form>
 
 					</div>
 
-					<div class="col-lg-4 mt-4 mt-lg-0">
-						<div class="info p-lg-3 p-3 shadow-lg h-100" style="overflow-y: auto; border-radius: 10px">
-							<div class="address mt-3">
+					<div class="col-lg-4 mt-4 mt-lg-0 ">
+						<div class="info p-lg-3 p-3 shadow-lg h-100 bg-dark " style="overflow-y: auto; border-radius: 10px">
+							<div class="address mt-3 ">
 								<?php foreach ($list_whises as $lw) : ?>
 									<div class="address mt-3"><i class="bi bi-person-badge"></i>
-										<h4><?= $lw['whis_name']; ?></h4>
-										<p class="lead"> <b><?= date('H:i', strtotime($lw['post_time'])) ?> WIB </b> &mdash; <span><?= $lw['whis_msg']; ?></span></p>
+										<h4 style="font-family: Dandeleon;" class="text-white"><?= $lw['whis_name']; ?></h4>
+										<p class="lead" style="font-family: 'Cairo', sans-serif;"> <b class="text-white"><?= date('H:i', strtotime($lw['post_time'])) ?> WIB </b> &mdash; <span class="text-white"><?= $lw['whis_msg']; ?></span></p>
 									</div>
 								<?php endforeach; ?>
 							</div>
@@ -357,15 +407,15 @@
 
 		</section>
 
-		<section id="services1" class="services">
+		<section id="services1" class="services" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-protocol.svg');">
 			<div class="container" data-aos="fade-up">
 
-				<div class="section-title">
-					<h2>Wedding Gift</h2>
-					<p>Kami memahami bahwa beberapa dari Anda mungkin ingin mengirimkan ucapan atau hadiah kepada kami, jadi silakan ketuk tombol berikut untuk mengirimkannya kepada kami:</p>
+				<div class="section-title text-white">
+					<h2 style="font-family: Dandeleon;" class="text-white">Wedding Gift</h2>
+					<p style="font-family: 'Cairo', sans-serif;">Kami memahami bahwa beberapa dari Anda mungkin ingin mengirimkan ucapan atau hadiah kepada kami, jadi silakan ketuk tombol berikut untuk mengirimkannya kepada kami:</p>
 				</div>
-				<div class="text-center">
-					<button class="btn btn-dark " type="button" data-toggle="modal" data-target="#wedd-gift"><i class="ri-gift-line mr-2"></i>Kirim Hadiah</button>
+				<div class="text-center" style="font-family: 'Cairo', sans-serif;">
+					<button class="btn btn-dark rounded-pill px-3" type="button" data-toggle="modal" data-target="#wedd-gift"><i class="ri-gift-line mr-2"></i>Kirim Hadiah</button>
 
 				</div>
 
@@ -380,16 +430,16 @@
 	<!-- Modal -->
 	<div class="modal fade" id="first_modal" tabindex="-1" aria-hidden="true" data-backdrop="static" data-keyboard="false">
 		<div class="modal-dialog modal-lg">
-			<div class="modal-content bg-dark">
+			<div class="modal-content bg-transparent">
 				<div class="modal-body text-center p-0 justify-content-center" id="staticBackdropLabel">
 					<section id="heros" class="d-flex flex-column p-2  justify-content-center text-center ">
 						<div class="container p-5 bg-dark shadow-lg" style="border-radius: 20px;" data-aos="zoom-in" data-aos-delay="100">
 							<img src="<?= base_url() ?>assets/img/additional-images/logo.png" width="200" height="50" alt="">
-							<p class="mb-lg-3 mb-4 w-100 mt-lg-5 mt-5 text-white">Kepada Yth.</p>
-							<h1 class="text-warning w-100"><?= $guestname['guest_name']; ?></h1>
-							<p class="mt-lg-4 mt-4 text-white w-100">Ditempat</p>
+							<p class="mb-lg-3 mb-4 w-100 mt-lg-5 mt-5 text-white" style="font-family: 'Cairo', sans-serif;">Kepada Yth.</p>
+							<h1 class="text-white w-100" style="font-family: Dandeleon;"><?= $guestname['guest_name']; ?></h1>
+							<p class="mt-lg-4 mt-4 text-white w-100" style="font-family: 'Cairo', sans-serif;">Ditempat</p>
 							<div class="social-links">
-								<button class="btn btn-warning text-dark font-weight-bold rounded-lg shadow-lg" id="play" type="button" data-dismiss="modal"><i class="ri-mail-open-line mr-2"></i> Buka Undangan</button>
+								<button class="btn bg-white text-black font-weight-bold rounded-lg shadow-lg" id="play" type="button" data-dismiss="modal" style="font-family: Dandeleon;"><i class="ri-mail-open-line mr-2"></i> Buka Undangan</button>
 							</div>
 						</div>
 					</section>
@@ -404,7 +454,7 @@
 	<!-- Modal -->
 	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
-			<div class="modal-content">
+			<div class="modal-content" style="font-family: 'Cairo', sans-serif;">
 				<div class="modal-header bg-dark text-white">
 					<h5 class="modal-title" id="exampleModalLabel">Konfirmasi Kehadiran</h5>
 					<button type="button" class="btn-Tutup" data-dismiss="modal" aria-label="Tutup"></button>
@@ -448,16 +498,16 @@
 					<h5 class="modal-title" id="exampleSideModal1">Wedding Gift</h5>
 					<button type="button" class="btn-Tutup btn-Tutup-white" data-dismiss="modal" aria-label="Tutup"></button>
 				</div>
-				<div class="modal-body active">
-					<p class="text-center"> Silahkan transfer ke rekening tersebut untuk memberikan hadiah kepada <strong class="font-weight-bold">Imam & Nadya</strong></p>
+				<div class="modal-body active" style="font-family: 'Cairo', sans-serif;">
+					<p class="text-center"> Silahkan transfer ke rekening tersebut untuk memberikan hadiah kepada <strong class="font-weight-bold">Yudha & Diana</strong></p>
 					<div class="card mx-lg-auto mx-auto mb-lg-3 mb-4">
 						<div class="card__front card__part">
-							<img class="card__front-square card__square" src="https://futurapast.com/wp-content/uploads/2020/03/logo-bank-bca-png-4.png">
+							<img class="card__front-square card__square" src="https://images.prismic.io/babono/65321977-8947-4f4f-89ab-659d08530ad1_Mandiri-Logo.png?auto=compress%2Cformat">
 							<img class="card__front-logo card__logo" src="<?= base_url() ?>assets/img/icon.png">
-							<p class="card_numer"><span id="norek">*********</span> </p>
+							<p class="card_numer"><span id="norek">1330015954134</span> </p>
 							<div class="card__space-75">
 								<span class="card__label">Card holder</span>
-								<p class="card__info">Nadya Safitri</p>
+								<p class="card__info">YUDHA NUR HIDAYAT</p>
 							</div>
 							<div class="card__space-25">
 								<span class="card__label">Expires</span>
@@ -512,7 +562,7 @@
 		});
 	</script>
 	<script>
-		var audio = new Audio("<?= base_url() ?>assets/music/Maher Zain - Baraka Allahu Lakuma Official Lyric Video (mp3cut.net).mp3");
+		var audio = new Audio("<?= base_url() ?>assets/music/X2Download.com - Brian McKnight Jr  - Marry Your Daughter | Lyrics Terjemahan Indonesia (128 kbps).mp3");
 		$('#play').click(function() {
 			audio.play();
 		});
@@ -533,8 +583,8 @@
 		document.getElementById('cp_btn').onclick = function() {
 			navigator.clipboard.writeText(document.getElementById('norek').innerText).then(function() {
 				Swal.fire({
-					title: 'Maaf',
-					text: 'Tidak ada Nomor Rekening, Silahkan Datang ke tempat.',
+					title: 'Berhasil',
+					text: 'Nomor Rekening Berhasil Disalin!',
 					imageUrl: 'https://www.freeiconspng.com/uploads/credit-card-bank-icon-png-26.png',
 					imageWidth: 300,
 					imageHeight: 300,
@@ -543,7 +593,7 @@
 			})
 		}
 		// Set the date we're counting down to
-		var countDownDate = new Date("Feb 4, 2022 16:30:00").getTime();
+		var countDownDate = new Date("Feb 20, 2022 10:00:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(function() {
