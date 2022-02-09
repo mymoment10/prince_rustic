@@ -22,11 +22,12 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
 	<style>
-		@font-face {
-			font-family: Dandeleon;
-			src: url('assets/css/DandeleonVintageDemo.otf');
-		}
+		@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 		@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 	</style>
@@ -87,9 +88,9 @@
 	<section id="hero" class="d-flex flex-column justify-content-center text-center">
 		<div class="container" data-aos="zoom-in" data-aos-delay="100">
 			<p class="mb-lg-5 mb-5 text-secondary" style="font-family: 'Cairo', sans-serif;">THE WEDDING OF</p>
-			<h1 style="font-family: Dandeleon;" class="text-white">Yudha & Diana</h1>
-			<p class="mt-lg-4 mt-4 text-white" style="font-family: Dandeleon;">Minggu, <span class="typed text-white-50" data-typed-items="20 Februari 2022"></span></p>
-			<div class="social-links" style="font-family: Dandeleon;">
+			<h1 style="font-family: 'Dancing Script', cursive;" class="text-white">Yudha & Diana</h1>
+			<p class="mt-lg-4 mt-4 text-white" style="font-family: 'Dancing Script', cursive;">Minggu, <span class="typed text-white-50" data-typed-items="20 Februari 2022"></span></p>
+			<div class="social-links" style="font-family: 'Dancing Script', cursive;">
 				<a target="_blank" href="https://calendar.google.com/calendar/u/1/r/week/2022/2/20"><button class="btn btn-dark rounded-pill px-3 shadow-lg"><i class="bi bi-calendar-check mr-2"></i> Save the Date</button></a>
 			</div>
 		</div>
@@ -113,7 +114,7 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2 style="font-family: Dandeleon;" class=" text-white">Love Story</h2>
+					<h2 style="font-family: 'Dancing Script', cursive;" class=" text-white">Love Story</h2>
 				</div>
 
 				<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -122,7 +123,7 @@
 						<div class="swiper-slide w-100">
 							<div class="testimonial-item text-dark p-lg-5 p-5 mx-auto" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-carousel-love-story.svg');  background-size: cover;">
 								<i class="bi bi-heart mt-lg-5"></i>
-								<h3 class="text-dark" style="font-family: Dandeleon;">Awal Kenalan</h3>
+								<h3 class="text-dark" style="font-family: 'Dancing Script', cursive;">Awal Kenalan</h3>
 								<h4 class="text-black" style="font-family: 'Cairo', sans-serif;">01 April 2018</h4>
 								<p style="font-family: 'Cairo', sans-serif;">
 									<i class="bx bxs-quote-alt-left quote-icon-left text-dark"></i>
@@ -136,7 +137,7 @@
 						<div class="swiper-slide w-100">
 							<div class="testimonial-item text-dark p-lg-5 p-5 mx-auto" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-carousel-love-story.svg');  background-size: cover;">
 								<i class="bi bi-heart mt-lg-5"></i>
-								<h3 class="text-dark" style="font-family: Dandeleon;">Tunangan</h3>
+								<h3 class="text-dark" style="font-family: 'Dancing Script', cursive;">Tunangan</h3>
 								<h4 class="text-black" style="font-family: 'Cairo', sans-serif;">10 Oktober 2021</h4>
 								<p style="font-family: 'Cairo', sans-serif;">
 									<i class="bx bxs-quote-alt-left quote-icon-left text-dark"></i>
@@ -148,7 +149,7 @@
 						<div class="swiper-slide w-100">
 							<div class="testimonial-item text-dark p-lg-5 p-5 mx-auto" style="background-image: url('<?= base_url() ?>assets/img/additional-images/bg-carousel-love-story.svg');  background-size: cover;">
 								<i class="bi bi-heart mt-lg-5"></i>
-								<h3 class="text-dark" style="font-family: Dandeleon;">Pernikahan</h3>
+								<h3 class="text-dark" style="font-family: 'Dancing Script', cursive;">Pernikahan</h3>
 								<h4 class="text-black" style="font-family: 'Cairo', sans-serif;">20 Februari 2022</h4>
 								<p style="font-family: 'Cairo', sans-serif;">
 									<i class="bx bxs-quote-alt-left quote-icon-left text-dark"></i>
@@ -168,13 +169,13 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2 class="text-dark" style="font-family: Dandeleon;">Bride & Groom</h2>
+					<h2 class="text-dark" style="font-family: 'Dancing Script', cursive;">Bride & Groom</h2>
 				</div>
 
 				<div class="col-lg-10 col-12 row mx-lg-auto mx-auto">
 					<div class="col-lg-5 col-12 pt-4 pt-lg-0 content mx-lg-auto mx-auto text-center">
 						<img src="<?= base_url() ?>assets/img/additional-images/bride.svg" width="300" height="300" class="rounded-3 shadow-lg mb-lg-5 mb-4 img-thumbnail" alt="">
-						<h3 class="text-dark" style="font-family: Dandeleon;"><b>Yudha Nur Hidayat</b></h3>
+						<h3 class="text-dark" style="font-family: 'Dancing Script', cursive;"><b>Yudha Nur Hidayat</b></h3>
 						<p class="text-muted" style="font-family: 'Cairo', sans-serif;">
 							Putra Ketiga dari
 						</p>
@@ -187,7 +188,7 @@
 					</div>
 					<div class="col-lg-5 col-12 pt-4 pt-lg-0 content mx-lg-auto mx-auto text-center">
 						<img src="<?= base_url() ?>assets/img/additional-images/groom.svg" width="300" height="300" class="rounded-3 shadow-lg mb-lg-5 mb-4 img-thumbnail" alt="">
-						<h3 class="text-dark" style="font-family: Dandeleon;"><b>Diana</b></h3>
+						<h3 class="text-dark" style="font-family: 'Dancing Script', cursive;"><b>Diana</b></h3>
 						<p class="text-muted" style="font-family: 'Cairo', sans-serif;">
 							Putri Pertama dari
 						</p>
@@ -207,14 +208,14 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2 style="font-family: Dandeleon;" class="text-white">Wedding Events</h2>
+					<h2 style="font-family: 'Dancing Script', cursive;" class="text-white">Wedding Events</h2>
 				</div>
 
 				<div class="row text-white">
 
 					<div class="col-lg-6 col-12 mt-lg-0 mt-2 mx-lg-auto mx-auto text-center ">
 						<span class="iconify mx-lg-auto mx-auto" data-icon="emojione-v1:love-letter" data-width="50" data-height="50"></span>
-						<h3 class="resume-title text-center font-weight-bold text-white" style="font-family: Dandeleon;"><b>Akad Nikah</b></h3>
+						<h3 class="resume-title text-center font-weight-bold text-white" style="font-family: 'Dancing Script', cursive;"><b>Akad Nikah</b></h3>
 						<div class="text-center" style="font-family: 'Cairo', sans-serif;">
 							<h4>Minggu, 20 Februari 2022 </h4>
 							<h5><i class="bi bi-alarm"></i> 10.00 - Selesai</h5>
@@ -228,7 +229,7 @@
 					</div>
 					<div class="col-lg-6 col-12 mt-lg-0 mt-2 mx-lg-auto mx-auto text-center">
 						<span class="iconify mx-lg-auto mx-auto" data-icon="wpf:wedding-cake" style="color: #ffff;" data-width="50" data-height="50"></span>
-						<h3 class="resume-title text-center font-weight-bold text-white" style="font-family: Dandeleon;">Wedding Reception</h3>
+						<h3 class="resume-title text-center font-weight-bold text-white" style="font-family: 'Dancing Script', cursive;">Wedding Reception</h3>
 						<div class="text-center" style="font-family: 'Cairo', sans-serif;">
 							<h4>Minggu, 20 Februari 2022</h4>
 							<h5><i class="bi bi-alarm"></i> 10.00 - Selesai</h5>
@@ -249,13 +250,13 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2 class="text-dark" style="font-family: Dandeleon;">RSVP</h2>
-					<p class="lead text-dark" style="font-family: 'Cairo', sans-serif;"><strong class="text-black"><?= $count_hadir + 65; ?> </strong>Tamu Undangan memilih untuk menghadiri acara pernikahan Imam & Nadya</p>
+					<h2 class="text-dark" style="font-family: 'Dancing Script', cursive;">RSVP</h2>
+					<p class="lead text-dark" style="font-family: 'Cairo', sans-serif;"><strong class="text-black"><?= $count_hadir; ?> </strong>Tamu Undangan memilih untuk menghadiri acara pernikahan Imam & Nadya</p>
 					<lottie-player class="mx-lg-auto mx-auto" src="https://assets8.lottiefiles.com/packages/lf20_jkwhqdvw.json" background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
 					<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-dark text-white rounded-pill px-3" style="font-family: 'Cairo', sans-serif;"><b>Konfirmasi Sekarang!</b></button>
 				</div>
 
-				<div class="row col-lg-8 col-12 mx-lg-auto mx-auto mt-lg-3 mt-4" id="timer" style="font-family: Dandeleon;">
+				<div class="row col-lg-8 col-12 mx-lg-auto mx-auto mt-lg-3 mt-4" id="timer" style="font-family: 'Dancing Script', cursive;">
 
 					<div class="col-lg-3 col-md-6 col-3">
 						<div class="count-box shadow-lg" style="border-radius: 10px;">
@@ -299,7 +300,7 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2 style="font-family: Dandeleon;" class="text-white">Health Protocol</h2>
+					<h2 style="font-family: 'Dancing Script', cursive;" class="text-white">Health Protocol</h2>
 					<p style="font-family: 'Cairo', sans-serif;" class="text-white">Dikarenakan pandemi COVID-19 sehingga acara pernikahan ini akan dilaksanakan dengan mengikuti protokol kesehatan, harap mengikuti aturan berikut.</p>
 				</div>
 
@@ -311,7 +312,7 @@
 
 								<i class="iconify" data-icon="uim:social-distancing" data-width="100" data-height="100"></i>
 							</div>
-							<h4 style="font-family: Dandeleon;">Social Distancing</h4>
+							<h4 style="font-family: 'Dancing Script', cursive;">Social Distancing</h4>
 							<p style="font-family: 'Cairo', sans-serif;">Jaga jarak aman anda minimal 1 meter dari orang lain</p>
 						</div>
 					</div>
@@ -321,7 +322,7 @@
 							<div class="icon">
 								<span class="iconify" data-icon="ph:face-mask-fill" data-width="100" data-height="100"></span>
 							</div>
-							<h4 style="font-family: Dandeleon;">Use a Mask</h4>
+							<h4 style="font-family: 'Dancing Script', cursive;">Use a Mask</h4>
 							<p style="font-family: 'Cairo', sans-serif;">Selalu gunakan masker Anda, saat memasuki area resepsi pernikahan</p>
 						</div>
 					</div>
@@ -332,7 +333,7 @@
 
 								<span class="iconify" data-icon="fa-solid:hands-wash" data-width="100" data-height="100"></span>
 							</div>
-							<h4 style="font-family: Dandeleon;">Wash Your Hand</h4>
+							<h4 style="font-family: 'Dancing Script', cursive;">Wash Your Hand</h4>
 							<p style="font-family: 'Cairo', sans-serif;">Selalu cuci tangan anda sebelum dan sesudah. Gunakan sabun dan air atau handsinitize</p>
 						</div>
 					</div>
@@ -343,7 +344,7 @@
 
 								<span class="iconify" data-icon="wpf:facial-recognition-scan" data-width="100" data-height="100"></span>
 							</div>
-							<h4 style="font-family: Dandeleon;">Temperature Check</h4>
+							<h4 style="font-family: 'Dancing Script', cursive;">Temperature Check</h4>
 							<p style="font-family: 'Cairo', sans-serif;">Selalu check temperatur anda dan tetap di rumah jika anda sakit atau mengalami gejala</p>
 						</div>
 					</div>
@@ -358,7 +359,7 @@
 			<div class="container mb-lg-3 mb-3" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2 class="text-dark" style="font-family: Dandeleon;">Whises</h2>
+					<h2 class="text-dark" style="font-family: 'Dancing Script', cursive;">Whises</h2>
 					<p class="text-black" style="font-family: 'Cairo', sans-serif;">Berikan ucapan & kesan anda terhadap kedua mempelai</p>
 				</div>
 
@@ -388,7 +389,7 @@
 							<div class="address mt-3 ">
 								<?php foreach ($list_whises as $lw) : ?>
 									<div class="address mt-3"><i class="bi bi-person-badge"></i>
-										<h4 style="font-family: Dandeleon;" class="text-white"><?= $lw['whis_name']; ?></h4>
+										<h4 style="font-family: 'Dancing Script', cursive;" class="text-white"><?= $lw['whis_name']; ?></h4>
 										<p class="lead" style="font-family: 'Cairo', sans-serif;"> <b class="text-white"><?= date('H:i', strtotime($lw['post_time'])) ?> WIB </b> &mdash; <span class="text-white"><?= $lw['whis_msg']; ?></span></p>
 									</div>
 								<?php endforeach; ?>
@@ -411,7 +412,7 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title text-white">
-					<h2 style="font-family: Dandeleon;" class="text-white">Wedding Gift</h2>
+					<h2 style="font-family: 'Dancing Script', cursive;" class="text-white">Wedding Gift</h2>
 					<p style="font-family: 'Cairo', sans-serif;">Kami memahami bahwa beberapa dari Anda mungkin ingin mengirimkan ucapan atau hadiah kepada kami, jadi silakan ketuk tombol berikut untuk mengirimkannya kepada kami:</p>
 				</div>
 				<div class="text-center" style="font-family: 'Cairo', sans-serif;">
@@ -436,10 +437,10 @@
 						<div class="container p-5 bg-dark shadow-lg" style="border-radius: 20px;" data-aos="zoom-in" data-aos-delay="100">
 							<img src="<?= base_url() ?>assets/img/additional-images/logo.png" width="200" height="50" alt="">
 							<p class="mb-lg-3 mb-4 w-100 mt-lg-5 mt-5 text-white" style="font-family: 'Cairo', sans-serif;">Kepada Yth.</p>
-							<h1 class="text-warning w-100" style="font-family: Dandeleon;"><?= $guestname; ?></h1>
+							<h1 class="text-warning w-100" style="font-family: 'Dancing Script', cursive;"><?= $guestname; ?></h1>
 							<p class="mt-lg-4 mt-4 text-white w-100" style="font-family: 'Cairo', sans-serif;">Ditempat</p>
 							<div class="social-links">
-								<button class="btn btn-warning text-dark font-weight-bold rounded-lg shadow-lg" id="play" type="button" data-dismiss="modal" style="font-family: Dandeleon;"><i class="ri-mail-open-line mr-2"></i> Buka Undangan</button>
+								<button class="btn btn-warning text-dark font-weight-bold rounded-lg shadow-lg" id="play" type="button" data-dismiss="modal" style="font-family: 'Dancing Script', cursive;"><i class="ri-mail-open-line mr-2"></i> Buka Undangan</button>
 							</div>
 						</div>
 					</section>
